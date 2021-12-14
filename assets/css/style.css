@@ -35,6 +35,7 @@ header nav {
 header nav ul li {
   display: inline;
 }
+
 header nav ul li a {
   margin: 0 30px;
   font-weight: lighter;
@@ -97,7 +98,7 @@ section {
 
 .hero-form h3 {
   margin: 0;
-  font-size: 130%;
+  font-size: 24px;
 }
 
 .hero-form p {
@@ -106,7 +107,7 @@ section {
 
 .form-input {
   color: #024e76;
-  font-size: 150%;
+  font-size: 16px;
   border: 1px solid #024e76;
   padding: 7px 15px;
   width: 100%;
@@ -169,4 +170,51 @@ section {
 .steps p {
   color: #39a6b2;
   font-size: 23px;
+}
+
+.trainers {
+  text-align: center;
+}
+
+.trainer {
+  width: 900px;
+  margin: 0 auto 30px auto;
+  background: #024e76;
+  color: #fce138;
+  overflow: auto;
+}
+
+.trainer img {
+  width: 35%;
+  float: left;
+}
+
+.trainer-bio {
+  padding: 35px;
+  float: left;
+  width: 65%;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.trainer-bio h3 {
+  font-size: 32px;
+  margin-bottom: 8px;
+}
+
+.trainer-bio h4 {
+  font-weight: lighter;
+  font-size: 26px;
+  margin-bottom: 25px;
+}
+
+.trainer-bio p {
+  font-size: 17px;
+  line-height: 1.3;
 }
